@@ -1,120 +1,115 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-<title>Dr. Saldaña</title>
-<link href="saldana.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/jquery.js"></script>
-<style type="text/css">
-.inn {
-	float: left;
-	width: 41px;
-}
-.inn img.a {
-	position: absolute;
-	z-index: 10;
-	/* [disabled]left: 969px; */
-	/* [disabled]top: 581px; */
-	width: 41px;
-}
- 
-.inn img.b {
-	position: absolute;
-	/* [disabled]left: 969px; */
-	/* [disabled]top: 581px; */
-	width: 41px;
-}
-face {
-	float: left;
-	width: 41px;
-}
-.face img.a {
-	position: absolute;
-	z-index: 10;
-	/* [disabled]left: 1012px; */
-	/* [disabled]top: 581px; */
-}
- 
-.face img.b {
-	position: absolute;
-	/* [disabled]left: 1012px; */
-	/* [disabled]top: 581px; */
-}
-.twit {
-	float: left;
-	width: 41px;
-}
-.twit img.a {
-	position: absolute;
-	z-index: 10;
-	/* [disabled]left: 924px; */
-	/* [disabled]top: 583px; */
-}
- 
-.twit img.b {
-	position: absolute;
-	/* [disabled]left: 924px; */
-	/* [disabled]top: 583px; */
-}
-</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<script type='text/javascript'>
-$(document).ready(function(){
-$("img.a").hover(
-function() {
-$(this).stop().animate({"opacity": "0"}, "medium");
-},
-function() {
-$(this).stop().animate({"opacity": "1"}, "medium");
-});
- 
-});
-</script>
+  <title>Dr. Saldaña</title>
+  <meta name="description" content="">
+  <meta name="author" content="Stratêgia.mx">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--<link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
+
+  <link rel="stylesheet" href="saldana.css">
+  <script src="js/libs/modernizr-1.7.min.js"></script>
 
 </head>
 
 <body>
-<div class="contenedor">
-	<div class="logo"><img src="img/logo.png" width="243" height="98"></div>
-<div class="nav"><ul>
-    		<li><a href="#" target="_self">Inicio</a></li>
-            <li><a href="#" target="_self">Servicios</a></li>
-            <li><a href="#" target="_self">Currículum</a></li>
-            <li><a href="#" target="_self">Testimonios</a></li>
-            <li><a href="contacto.html" target="_self">Contacto</a></li>
-        </ul></div>
-    <div class="banner_galeria"><iframe src="galeria_index/menu.html" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
-    <div class="mision"><h1>01.</h1><h2>Misión.</h2> <br>
-      <!-- <h3>¿Por qué se ha creado la empresa?</h3> -->
-  <p>Nuestra misión es ofrecer a los pacientes la mejor atención, con la tecnología de punta, implementar en el tratamiento los avances científicos en la periodoncia e implantes, para el obtener el más cómodo resultado con la más alta calidad.</p></div>
-    <div class="vision"><h1>02.</h1><h2>Visión.</h2><br>
-      <!-- <h3>¿Cómo se proyecta a futuro?</h3><br> -->
-    
-      <p>Informar sobre las enfermedades     periodontales para un diagnóstico a tiempo y prevención de complicaciones. Fomentar la correcta higiene, y seguir a la vanguardia en el área periodontal y de implantes.</p> <br>
+
+  <div id="contenedor">
+    <header>
+			<div class="logo">
+				<img src="img/logo.png" width="243" height="98" alt="Dr. Miguel Favio Saldaña">
+			</div>
+			<div class="nav">
+				<ul>
+		    	<li><a href="#" target="_self">Inicio</a></li>
+		    	<li><a href="#" target="_self">Servicios</a></li>
+		    	<li><a href="#" target="_self">Currículum</a></li>
+		    	<li><a href="#" target="_self">Testimonios</a></li>
+		    	<li><a href="contacto.html" target="_self">Contacto</a></li>
+		    </ul>
+			</div>
+    </header>
+    <div id="main" role="main">
+			<div class="banner_galeria">
+				<iframe src="galeria_index/menu.html" width="1027px" height="100%" scrolling="no" frameborder="0"></iframe>
+			</div>
+			<div class="mision">
+				<h1>01.</h1>
+				<h2>Misión.</h2>
+				<br /> 
+			  <!-- <h3>¿Por qué se ha creado la empresa?</h3> -->
+				<p>Nuestra misión es ofrecer a los pacientes la mejor atención, con la tecnología de punta, implementar en el tratamiento los avances científicos en la periodoncia e implantes, para el obtener el más cómodo resultado con la más alta calidad.</p>
+			</div>
+			<div class="vision">
+				<h1>02.</h1>
+				<h2>Visión.</h2>
+				<br /> 
+			  <!-- <h3>¿Cómo se proyecta a futuro?</h3><br />  -->
+				<p>Informar sobre las enfermedades periodontales para un diagnóstico a tiempo y prevención de complicaciones. Fomentar la correcta higiene, y seguir a la vanguardia en el área periodontal y de implantes.</p>
+				<br /> 
+			</div>
+			<div class="redes_index">
+				<h1>Síguenos en:</h1>
+				<br /> 
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr>
+				    <td><div class="twit"><img src="img/redes_twit2.jpg" width="41" height="27" border="0" class="a"><img src="img/redes_twit.jpg" width="41" height="27" class="b"></div></td>
+				    <td><div class="inn"><img src="img/redes_in2.jpg" width="41" height="33" border="0" class="a"><img src="img/redes_in.jpg" width="41" height="33" class="b"></div></td>
+				    <td><div class="face"><img src="img/redes_face2.jpg" width="41" height="33" border="0" class="a"><img src="img/redes_face.jpg" width="41" height="33" class="b"></div></td>
+				  </tr>
+				</table>
+			</div>
     </div>
-<div class="redes_index">
-    <h1>Síguenos en:</h1>
-    <br>
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <td><div class="twit"><img src="img/redes_twit2.jpg" width="41" height="27" border="0" class="a"><img src="img/redes_twit.jpg" width="41" height="27" class="b"></div></td>
-        <td><div class="inn"><img src="img/redes_in2.jpg" width="41" height="33" border="0" class="a"><img src="img/redes_in.jpg" width="41" height="33" class="b"></div></td>
-        <td><div class="face"><img src="img/redes_face2.jpg" width="41" height="33" border="0" class="a"><img src="img/redes_face.jpg" width="41" height="33" class="b"></div></td>
-      </tr>
-    </table>
-  </div>
-  <div class="servicios_index"><h1>Servicios</h1>
-  <div class="cuadro_servicios">
-  		<a href="http://google.com" target="_new">
-		  <div class="rojo_s">Gingivitis</div></a>
-      <div class="aqua_s">Periodontitis</div>
-      <div class="verde_s">Implantes</div>
-      <div class="amarillo_s">Recontorneo</div>
-      <div class="naranja_s">Recesión</div>
-    </div>
-  </div>
-  </div>
-<div class="pie_pag"><div class="pie_pag_centrado"><div>Derechos Reservados 2011&copy;</div>Luis Donaldo Colosio No. 389 Col. Villa Satélite, Hermosillo, Son. <span>Tel.(662) 2 16 18 23</span></div></div>
+    <footer>
+			<div class="servicios_index">
+				<h1>Servicios</h1>
+				<div class="cuadro_servicios">
+					<a href="http://google.com" target="_new">
+					<div class="servicio rojo_s">Gingivitis</div></a>
+					<div class="servicio aqua_s">Periodontitis</div>
+					<div class="servicio verde_s">Implantes</div>
+					<div class="servicio amarillo_s">Recontorneo</div>
+					<div class="servicio naranja_s">Recesión</div>
+				</div>
+			</div>
+    </footer>
+  </div> <!-- eo #container -->
+<div class="pie_pag"><div class="pie_pag_centrado">
+	<div>Derechos Reservados 2011&copy;</div>Luis Donaldo Colosio No. 389 Col. Villa Satélite, Hermosillo, Son. <span>Tel.(662) 2 16 18 23</span></div>
+</div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
+
+
+
+  <script>
+    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID 
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+
 </body>
 </html>

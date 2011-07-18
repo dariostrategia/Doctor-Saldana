@@ -23,24 +23,20 @@
 
 <body>
 
-  <div id="contenedor">
+  <div id="contenedor" class="container">
     <header>
 			<div class="logo">
 				<img src="img/logo.png" width="243" height="98" alt="Dr. Miguel Favio Saldaña">
 			</div>
-			<div class="nav">
+			<nav>
 				<ul>
-		    	<li><a href="#" target="_self">Inicio</a></li>
-		    	<li><a href="#" target="_self">Servicios</a></li>
-		    	<li><a href="#" target="_self">Currículum</a></li>
-		    	<li><a href="#" target="_self">Testimonios</a></li>
-		    	<li><a href="contacto.html" target="_self">Contacto</a></li>
+					<?php include 'elementos-de-la-pagina/navegacion.php'; ?>
 		    </ul>
-			</div>
+			</nav>
     </header>
     <div id="main" role="main">
 			<div class="banner_galeria">
-				<iframe src="galeria_index/menu.html" width="1027px" height="100%" scrolling="no" frameborder="0"></iframe>
+				<iframe id="slider" src="galeria_index/menu.html" width="1027" height="370" scrolling="no" frameborder="0"></iframe>
 			</div>
 			<div class="mision">
 				<h1>01.</h1>

@@ -9,15 +9,15 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  /*margin: 0;
-  padding: 0;*/
+  margin: 0;
+  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, section {
+footer, header, hgroup, menu, nav, section {
   display: block; }
 
 blockquote, q {
@@ -148,12 +148,12 @@ input:invalid, textarea:invalid {
   background-color: #f0dddd; }
 
 ::-moz-selection {
-  background: #FF5E99;
+  background: #007693;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #007693;
   color: #fff;
   text-shadow: none; }
 
@@ -273,9 +273,13 @@ body {
   background-color: #FFF;
   margin: 0px; }
 
-.contenedor {
-  width: 1027px !important;
-  margin: auto !important; }
+#contenedor {
+  width: 1027px;
+  margin: auto; }
+
+.container {
+  width: 1027px;
+  margin: auto; }
 
 .logo {
   height: 94px;
@@ -311,13 +315,13 @@ body {
   position: fixed; }
 
 /*-----navegacion----*/
-.nav {
+nav, .nav {
   width: 622px;
   float: left;
   height: 66px;
   padding-top: 60px;
   padding-left: 20px; }
-  .nav ul li {
+  nav ul li, .nav ul li {
     display: inline;
     text-decoration: none;
     font-size: 25px;
@@ -327,18 +331,18 @@ body {
     -moz-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s; }
-    .nav ul li:hover {
+    nav ul li:hover, .nav ul li:hover {
       background-color: #099;
       color: #FFF;
       box-shadow: 3px 3px 3px #888888;
       -moz-box-shadow: 3px 3px 3px #888888;
       -webkit-box-shadow: 3px 3px 3px #888888;
       -o-box-shadow: 3px 3px 3px #888888; }
-    .nav ul li a {
+    nav ul li a, .nav ul li a {
       color: #4f4f4f;
       text-decoration: none;
       font-size: 25px; }
-      .nav ul li a:hover {
+      nav ul li a:hover, .nav ul li a:hover {
         color: #FFF;
         text-decoration: none;
         font-size: 25px; }

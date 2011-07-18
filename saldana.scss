@@ -10,8 +10,8 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  /*margin: 0;
-  padding: 0;*/
+  margin: 0;
+  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, /*nav,*/ section {
+footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
@@ -64,8 +64,8 @@ input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5
 .no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
 
 
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #007693; color:#fff; text-shadow: none; }
+::selection { background:#007693; color:#fff; text-shadow: none; }
 a:link { -webkit-tap-highlight-color: #FF5E99; }
 button {  width: auto; overflow: visible; }
 .ie7 img { -ms-interpolation-mode: bicubic; }
@@ -126,10 +126,13 @@ body {
   background-color: #FFF;
   margin: 0px; }
 
-.contenedor {
-  width: 1027px !important;
-  margin: auto !important; }
-
+#contenedor {
+  width: 1027px ;
+  margin: auto }
+.container{
+  width: 1027px;
+  margin: auto;
+}
 .logo {
   height: 94px;
   width: 269px;
@@ -165,7 +168,7 @@ body {
 
 /*-----navegacion----*/
 
-.nav {
+nav, .nav {
   ul li {
     display: inline;
     text-decoration: none;

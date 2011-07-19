@@ -25,14 +25,7 @@
 
   <div id="contenedor" class="container">
     <header>
-			<div class="logo">
-				<img src="img/logo.png" width="243" height="98" alt="Dr. Miguel Favio Saldaña">
-			</div>
-			<nav>
-				<ul>
-					<?php include 'elementos-de-la-pagina/navegacion.php'; ?>
-		    </ul>
-			</nav>
+			<?php include "elementos-de-la-pagina/header.php" ;?>
     </header>
     <div id="main" role="main">
 			<div class="banner_galeria">
@@ -66,22 +59,10 @@
 			</div>
     </div>
     <footer>
-			<div class="servicios_index">
-				<h1>Servicios</h1>
-				<div class="cuadro_servicios">
-					<a href="http://google.com" target="_new">
-					<div class="servicio rojo_s">Gingivitis</div></a>
-					<div class="servicio aqua_s">Periodontitis</div>
-					<div class="servicio verde_s">Implantes</div>
-					<div class="servicio amarillo_s">Recontorneo</div>
-					<div class="servicio naranja_s">Recesión</div>
-				</div>
-			</div>
+			<?php include 'elementos-de-la-pagina/footer.php';?>
     </footer>
   </div> <!-- eo #container -->
-<div class="pie_pag"><div class="pie_pag_centrado">
-	<div>Derechos Reservados 2011&copy;</div>Luis Donaldo Colosio No. 389 Col. Villa Satélite, Hermosillo, Son. <span>Tel.(662) 2 16 18 23</span></div>
-</div>
+	<?php include 'elementos-de-la-pagina/telefono.php';?>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>

@@ -58,7 +58,7 @@ $(this).stop().animate({"opacity": "1"}, "medium");
 </head>
 
 <body>
-<div class="contenedor">
+  <div id="contenedor" class="container">
 	<div class="logo"><img src="img/logo.png" width="243" height="98"></div>
 <div class="nav"><ul>
     		<?php include 'elementos-de-la-pagina/navegacion.php'; ?>
@@ -106,6 +106,6 @@ Citas@expertoenencias.com</div>
 <div class="face"><img src="img/redes_face2.jpg" width="41" height="33" class="a"><img src="img/redes_face.jpg" width="41" height="33" class="b"></div><br><br>
 <div class="twit"><a href="http://twitter.com" target="_new"><img src="img/redes_twit2.jpg" width="41" height="27" border="0" class="a"></a><img src="img/redes_twit.jpg" width="41" height="27" class="b"></div></div>
 </div>
-<div class="pie_pag"><div class="pie_pag_centrado"><div>Derechos Reservados 2011&copy;</div>Luis Donaldo Colosio No. 389 Col. Villa Satélite, Hermosillo, Son. <span>Tel.(662) 2 16 18 23</span></div></div>
+<?php include 'elementos-de-la-pagina/telefono.php';?>
 </body>
 </html>

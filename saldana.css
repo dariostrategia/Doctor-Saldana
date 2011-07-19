@@ -29,13 +29,13 @@ q:before, q:after {
   content: none; }
 
 ins {
-  background-color: #ff9;
-  color: #000;
+  background-color: #ffff99;
+  color: black;
   text-decoration: none; }
 
 mark {
-  background-color: #ff9;
-  color: #000;
+  background-color: #ffff99;
+  color: black;
   font-style: italic;
   font-weight: bold; }
 
@@ -54,7 +54,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   margin: 1em 0;
   padding: 0; }
 
@@ -109,8 +109,6 @@ sub {
   bottom: -0.25em; }
 
 pre {
-  white-space: pre;
-  white-space: pre-wrap;
   word-wrap: break-word;
   padding: 15px; }
 
@@ -149,16 +147,16 @@ input:invalid, textarea:invalid {
 
 ::-moz-selection {
   background: #007693;
-  color: #fff;
+  color: white;
   text-shadow: none; }
 
 ::selection {
   background: #007693;
-  color: #fff;
+  color: white;
   text-shadow: none; }
 
 a:link {
-  -webkit-tap-highlight-color: #FF5E99; }
+  -webkit-tap-highlight-color: #ff5e99; }
 
 button {
   width: auto;
@@ -168,7 +166,7 @@ button {
   -ms-interpolation-mode: bicubic; }
 
 body, select, input, textarea {
-  color: #444; }
+  color: #444444; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold; }
@@ -177,7 +175,7 @@ a, a:active, a:visited {
   color: #607890; }
 
 a:hover {
-  color: #036; }
+  color: #003366; }
 
 .ir {
   display: block;
@@ -236,7 +234,7 @@ a:hover {
     -ms-filter: none !important; }
 
   a, a:visited {
-    color: #444 !important;
+    color: #444444 !important;
     text-decoration: underline; }
 
   a[href]:after {
@@ -249,7 +247,7 @@ a:hover {
     content: ""; }
 
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid; }
 
   thead {
@@ -270,7 +268,11 @@ a:hover {
 /* CSS Dr.Saldaña */
 /*---Generales----*/
 body {
-  background-color: #FFF;
+  background-color: white;
+  background-image: url("img/bgnd.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -32px;
   margin: 0px; }
 
 #contenedor {
@@ -295,12 +297,12 @@ body {
   background-color: #383838;
   height: 5%;
   font-family: texto;
-  color: #FFF;
+  color: white;
   padding-top: 10px;
   z-index: 15; }
   .pie_pag div {
     float: left;
-    color: #666;
+    color: #666666;
     font-size: 14px;
     padding-right: 2%; }
   .pie_pag span {
@@ -332,8 +334,8 @@ nav, .nav {
     -o-transition: all .5s;
     transition: all .5s; }
     nav ul li:hover, .nav ul li:hover {
-      background-color: #099;
-      color: #FFF;
+      background-color: #009999;
+      color: white;
       box-shadow: 3px 3px 3px #888888;
       -moz-box-shadow: 3px 3px 3px #888888;
       -webkit-box-shadow: 3px 3px 3px #888888;
@@ -343,7 +345,7 @@ nav, .nav {
       text-decoration: none;
       font-size: 25px; }
       nav ul li a:hover, .nav ul li a:hover {
-        color: #FFF;
+        color: white;
         text-decoration: none;
         font-size: 25px; }
 
@@ -431,7 +433,7 @@ nav, .nav {
   margin-top: 10px; }
   .servicios_index h1 {
     font-family: navegacion;
-    color: #FFF;
+    color: white;
     font-size: 30px; }
 
 .rojo_s {
@@ -441,13 +443,13 @@ nav, .nav {
   background-color: #d1374a;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  color: #FFF;
+  color: white;
   font-family: futurabt;
   padding-top: 90px;
   padding-left: 60px;
   font-size: 24px; }
   .rojo_s:hover {
-    background-color: #DD6C7A; }
+    background-color: #dd6c7a; }
 
 .aqua_s {
   float: left;
@@ -456,13 +458,13 @@ nav, .nav {
   background-color: #00a38b;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  color: #FFF;
+  color: white;
   font-family: futurabt;
   padding-top: 90px;
   padding-left: 40px;
   font-size: 24px; }
   .aqua_s:hover {
-    background-color: #00D2B3; }
+    background-color: #00d2b3; }
 
 .verde_s {
   float: left;
@@ -471,13 +473,13 @@ nav, .nav {
   background-color: #979e14;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  color: #FFF;
+  color: white;
   font-family: futurabt;
   padding-top: 90px;
   padding-left: 55px;
   font-size: 24px; }
   .verde_s:hover {
-    background-color: #BCC518; }
+    background-color: #bcc518; }
 
 .amarillo_s {
   float: left;
@@ -486,13 +488,13 @@ nav, .nav {
   background-color: #f2ba21;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  color: #FFF;
+  color: white;
   font-family: futurabt;
   padding-top: 90px;
   padding-left: 40px;
   font-size: 24px; }
   .amarillo_s:hover {
-    background-color: #F4C548; }
+    background-color: #f4c548; }
 
 .naranja_s {
   float: left;
@@ -501,13 +503,13 @@ nav, .nav {
   background-color: #df8b19;
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
-  color: #FFF;
+  color: white;
   font-family: futurabt;
   padding-top: 90px;
   padding-left: 60px;
   font-size: 24px; }
   .naranja_s:hover {
-    background-color: #EAA03E; }
+    background-color: #eaa03e; }
 
 /*-----contacto----*/
 .descripcion {
@@ -574,7 +576,7 @@ nav, .nav {
   padding-right: 30px;
   padding-bottom: 80px; }
   .formulario span {
-    color: #FFF;
+    color: white;
     font-family: texto;
     font-size: 10px; }
 
@@ -587,7 +589,7 @@ nav, .nav {
   padding-top: 50px; }
 
 label {
-  color: #FFF;
+  color: white;
   font-family: texto;
   font-size: 20px;
   margin-left: 10px; }
@@ -606,7 +608,7 @@ input {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     padding-left: 5px;
-    background-color: #FFF;
+    background-color: white;
     height: 35px;
     border-top-style: none;
     border-right-style: none;
@@ -628,7 +630,7 @@ textarea {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     padding-left: 5px;
-    background-color: #FFF;
+    background-color: white;
     height: 110px;
     border-top-style: none;
     border-right-style: none;
@@ -645,7 +647,7 @@ select {
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   padding-left: 5px;
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
   height: 20px;
   border-top-style: none;
   border-right-style: none;
@@ -655,7 +657,7 @@ select {
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     padding-left: 5px;
-    background-color: #FFF;
+    background-color: white;
     height: 20px;
     border-top-style: none;
     border-right-style: none;
@@ -665,25 +667,25 @@ select {
 #button {
   font-family: texto;
   font-size: 16px;
-  color: #FFF;
-  background-color: #00545F;
-  border: 1px solid #BEBEBE;
+  color: white;
+  background-color: #00545f;
+  border: 1px solid #bebebe;
   margin-top: 10px;
   width: 100%; }
   #button:hover {
     font-family: texto;
     font-size: 16px;
-    color: #FFF;
-    background-color: #00889F;
-    border: 1px solid #BEBEBE;
+    color: white;
+    background-color: #00889f;
+    border: 1px solid #bebebe;
     margin-top: 10px;
     width: 100%; }
   #button:active {
     font-family: texto;
     font-size: 16px;
-    color: #FFF;
-    background-color: #002F35;
-    border: 1px solid #BEBEBE;
+    color: white;
+    background-color: #002f35;
+    border: 1px solid #bebebe;
     margin-top: 10px;
     width: 100%; }
 
@@ -725,6 +727,80 @@ select {
   src: url("fonts/futura_light_condensed_bt.eot?#iefix") format("embedded-opentype"), url("fonts/futura_light_condensed_bt.woff") format("woff"), url("fonts/futura_light_condensed_bt.ttf") format("truetype"), url("fonts/futura_light_condensed_bt.svg#QlassikBoldRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+#main-inner {
+  width: 850px;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 150%; }
+
+h1 {
+  font-size: 3.0em; }
+
+h2 {
+  font-size: 2.4em; }
+
+h3 {
+  font-size: 1.8em; }
+
+h4 {
+  font-size: 1.5em; }
+
+h5 {
+  font-size: 1.3em; }
+
+h6 {
+  font-size: 1.2em; }
+
+dl {
+  line-height: 1.8em;
+  font-size: 1.2em; }
+  dl dt {
+    margin-bottom: 10px;
+    background: #f4c548;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+    float: left;
+    clear: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+  dl dd {
+    margin: 0;
+    padding: 0 10px 5px 10px;
+    width: 670px;
+    clear: both;
+    float: right;
+    clear: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    dl dd:hover {
+      background: #FFF7D6; }
+
+@-webkit-keyframes alafechaCOL {
+  from {
+    background-color: #f4c548; }
+
+  50% {
+    background-color: #f2ba21; }
+
+  to {
+    background-color: #f4c548; } }
+
+.alafecha {
+  -webkit-animation-name: alafechaCOL;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite; }
+
+.clear {
+  clear: both; }
 
 /*Index.html*/
 .inn {
@@ -769,8 +845,28 @@ face {
     /* [disabled]left: 924px; */
     /* [disabled]top: 583px; */ }
 
-.servicio {
+.servicio, .testimonio {
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s; }
+
+.testimonio {
+  background-color: #dfdfdf;
+  width: 160px;
+  height: 160px;
+  padding: 15px;
+  margin: 10px;
+  float: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+  .testimonio.odd {
+    background-color: #cccccc; }
+    .testimonio.odd.last {
+      width: 370px; }
+  .testimonio span {
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: right; }

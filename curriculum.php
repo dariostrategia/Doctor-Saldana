@@ -29,69 +29,74 @@
     <div id="main" role="main">
 			<div id="main-inner">
 				<h1>Curriculum</h1>
-				Foto Profesional 
+				
 				<h2>Dr. Miguel Favio Saldaña Rodríguez</h2>
+				<div class="curriculumdivleft">
+					<img src="elementos-de-la-pagina/fotografia.jpg" width="218" height="322" alt="Fotografia" style="">
+					<a href="CurriculumDr.pdf" title="Descargar currículum completo" style="text-decoration:none;"><img src="img/pdf.png" width="64" height="64" alt="Pdf"> Versión PDF</a>
+				</div><!-- .curriculumdivleft -->
+				<div class="curriculumdivright">
+					<h3>Estudios</h3>
+					<dl>
+						<dt>1990 - 1995</dt><dd>Doctorado en Periodoncia en la Universidad E. de El Salvador.</dd>
+						<dt>1996 - 1999</dt><dd>Maestría y Especialización en Ciencias Odontológicas Especialidad Periodoncia de la Universidad Autónoma de Nuevo León.</dd>
+					</dl>
+						<div class="" style="clear:right;"></div>
 
-				<h3>Estudios</h3>
-				<dl>
-					<dt>1990 - 1995</dt><dd>Doctorado en Periodoncia en la Universidad E. de El Salvador.</dd>
-					<dt>1996 - 1999</dt><dd>Maestría y Especialización en Ciencias Odontológicas Especialidad Periodoncia de la Universidad Autónoma de Nuevo León.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Actividad Profesional</h3>
+					<dl>
+						<dt class="alafecha">1999 a la fecha</dt><dd>Práctica Privada exclusiva en Periodoncia e Implantes Dentales.</dd>
+						<dt>2002 - 2003</dt><dd>Titular de Comisión Científica del la Asociación Dental de Hermosillo.</dd>
+						<dt>2004</dt><dd>Titular de Comisión Científica del Colegio de Dentistas de Hermosillo.</dd>
+						<dt>2003 - 2007</dt><dd>Presidente de la Asociación de Periodoncia de Sonora por dos periodos.</dd>
+						<dt>2009 - 2010</dt><dd>Presidente del Colegio de Dentistas de Hermosillo.</dd>
+					</dl>
+						<div class="clear"></div>
 
-				<h3>Actividad Profesional</h3>
-				<dl>
-					<dt class="alafecha">1999 a la fecha</dt><dd>Práctica Privada exclusiva en Periodoncia e Implantes Dentales.</dd>
-					<dt>2002 - 2003</dt><dd>Titular de Comisión Científica del la Asociación Dental de Hermosillo.</dd>
-					<dt>2004</dt><dd>Titular de Comisión Científica del Colegio de Dentistas de Hermosillo.</dd>
-					<dt>2003 - 2007</dt><dd>Presidente de la Asociación de Periodoncia de Sonora por dos periodos.</dd>
-					<dt>2009 - 2010</dt><dd>Presidente del Colegio de Dentistas de Hermosillo.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Reconocimientos</h3>
+					<dl>
+						<dt>2009</dt><dd>Profesionista del año otorgado por la Secretaría de Educación y Cultura del Estado de Sonora.</dd>
+					</dl>
+						<div class="clear"></div>
 
-				<h3>Reconocimientos</h3>
-				<dl>
-					<dt>2009</dt><dd>Profesionista del año otorgado por la Secretaría de Educación y Cultura del Estado de Sonora.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Investigaciones</h3>
+					<dl>
+						<dt>1999</dt><dd>Estudio Comparativo de dos Técnicas para la Reconstrucción Quirúrgica de Papila Interdentaria.</dd>
+					</dl>
+						<div class="clear"></div>
 
-				<h3>Investigaciones</h3>
-				<dl>
-					<dt>1999</dt><dd>Estudio Comparativo de dos Técnicas para la Reconstrucción Quirúrgica de Papila Interdentaria.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Conferencias</h3>
+					<dl>
+						<dt>1998</dt><dd>XXIX Seminario Interdisciplinario de Postgrados de la Universidad Autónoa de Nuevo León. 
+					Tema: Relación Periodoncia Ortodoncia en Pacientes con Periodonto Disminuido.</dd>
+						<dt>2001</dt><dd>Asociación Michoacana de Ortodoncia, Colegio de Ortodoncistas A.C.
+					Tema: Casos Clínicos de Ortodoncia Relacionado con el Tratamiento Periodontal.</dd>
+					</dl>
+											<div class="clear"></div>
 
-				<h3>Conferencias</h3>
-				<dl>
-					<dt>1998</dt><dd>XXIX Seminario Interdisciplinario de Postgrados de la Universidad Autónoa de Nuevo León. 
-				Tema: Relación Periodoncia Ortodoncia en Pacientes con Periodonto Disminuido.</dd>
-					<dt>2001</dt><dd>Asociación Michoacana de Ortodoncia, Colegio de Ortodoncistas A.C.
-				Tema: Casos Clínicos de Ortodoncia Relacionado con el Tratamiento Periodontal.</dd>
-				</dl>
-										<div class="clear"></div>
+					<h3>Experiencia Docente</h3>
+					<dl>
+						<dt>1998- 1999</dt><dd>Maestro invitado del Postgrado de Periodoncia de la Universidad Autónoma de Nuevo León.</dd>
+						<dt class="alafecha">2000 a la fecha</dt><dd>Docente e Instructor del Departamento de Periodoncia de la Universidad Evangélica de El Salvador.</dd>
+					</dl>
+						<div class="clear"></div>
 
-				<h3>Experiencia Docente</h3>
-				<dl>
-					<dt>1998- 1999</dt><dd>Maestro invitado del Postgrado de Periodoncia de la Universidad Autónoma de Nuevo León.</dd>
-					<dt class="alafecha">2000 a la fecha</dt><dd>Docente e Instructor del Departamento de Periodoncia de la Universidad Evangélica de El Salvador.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Socio Activo</h3>
+					<dl>
+						<dt class="alafecha">2002 a la fecha</dt><dd>Colegio de Dentistas de Hermosillo.</dd>
+						<dt class="alafecha">2002 a la fecha</dt><dd>Asociación de Periodoncia de Sonora.</dd>
+						<dt class="alafecha">2002 a la fecha</dt><dd>Asociación Dental Mexicana.</dd>
+						<dt class="alafecha">2000 a la fecha</dt><dd>Asociación Mexicana de Periodoncia.</dd>
+						<dt>2002</dt><dd>Certificado por el Consejo Mexicano de Periodoncia.</dd>
+					</dl>
+						<div class="clear"></div>
 
-				<h3>Socio Activo</h3>
-				<dl>
-					<dt class="alafecha">2002 a la fecha</dt><dd>Colegio de Dentistas de Hermosillo.</dd>
-					<dt class="alafecha">2002 a la fecha</dt><dd>Asociación de Periodoncia de Sonora.</dd>
-					<dt class="alafecha">2002 a la fecha</dt><dd>Asociación Dental Mexicana.</dd>
-					<dt class="alafecha">2000 a la fecha</dt><dd>Asociación Mexicana de Periodoncia.</dd>
-					<dt>2002</dt><dd>Certificado por el Consejo Mexicano de Periodoncia.</dd>
-				</dl>
-					<div class="clear"></div>
-
-				<h3>Congresos Organizados</h3>
-				<dl>
-					<dt>2008</dt><dd>18 Congreso Internacional y XXI Reunión Nacional de Periodontología.</dd>
-				</dl>
-					<div class="clear"></div>
+					<h3>Congresos Organizados</h3>
+					<dl>
+						<dt>2008</dt><dd>18 Congreso Internacional y XXI Reunión Nacional de Periodontología.</dd>
+					</dl>
+						<div class="clear"></div>
+				</div>
 			</div><!-- #main-inner -->
     </div>
     <footer>

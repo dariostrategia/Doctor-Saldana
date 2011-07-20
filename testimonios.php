@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Dr. Saldaña | Curriculum</title>
+  <title>Dr. Saldaña | Testimonios</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -29,6 +29,8 @@
     <div id="main" role="main">
 			<div id="main-inner">
 				<h1>Testimonios</h1>
+				<p>Estos son algunos de los testimonios de muchos clientes satisfechos que han visitado al Dr. Saldaña.Asi como ellos tu podras 
+				obtener la confianza, profesionalismo y calidad que todos merecen.</p>
 				<div id="testimonios">
 					<div class="testimonio odd">Llevo aproximadamente 5 años o un poco más y estoy 100% satisfecha en cuanto al servicio, atención y resultados que el Dr. Me ofrece.
 					<span>-	Gabriela de 33 años</span></div>

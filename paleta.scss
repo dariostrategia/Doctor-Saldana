@@ -36,10 +36,11 @@ $verdeazul1: #00A38B;
 $verdeazul2: #00D2B3;
 $yogurtdedurazno: #EAA03E;
 
+$size: 125px;
 
 .cuadrado{
- width:150px;
- height:50px;
+ width:$size;
+ height:$size;
  float:left;
 }
 .c01{background-color:$amarillopalido ;}

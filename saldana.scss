@@ -164,9 +164,9 @@ a:hover { color:$azulmarino; }
 body {
   background-color:$blanco;
   background-image:url('img/bgnd.gif');
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:-32px;
+  background-repeat:repeat-y;
+  
+  background-position:center top;
   margin:0px; }
 
 #contenedor {
@@ -666,12 +666,13 @@ h6 {
 
 
 dl{
-  line-height:1.8em;
+  line-height:1.3em;
   font-size:1.2em;
   display:inline-table;
   dt{
   	margin-bottom:10px;
-    background:$melon;
+    background:$teal7;
+    color:$blanco;
     padding:5px 10px;
     width:130px;
     text-align:center;
@@ -701,9 +702,9 @@ dl{
   }
 }
 @-webkit-keyframes alafechaCOL {
-  from { background-color:$melon; }
-  50% { background-color:$jugodedurazno; }
-  to { background-color:$melon; }
+  from { background-color:$teal7; }
+  50% { background-color:$teal9; }
+  to { background-color:$teal7; }
 }
 .alafecha {
   -webkit-animation-name:alafechaCOL;
@@ -800,3 +801,91 @@ face {
   width : 600px;
   float:right;
 }
+
+.sonrisasaldana{
+  width: 930px;
+  height: 93px;
+  background: url('img/servicios.png') no-repeat left;
+  clear:both;
+}
+.servicios-up{
+  .sectionimg{
+    width:830px;
+    height:250px;
+    background: url('img/servicios.jpg') no-repeat top center ;
+    margin:auto;   
+    z-index:1;
+  }
+  .servicioboton {
+    
+    list-style-type: none;
+  	list-style-image: none;
+  	display: inline;
+  	border-right-style: solid;
+  	border-bottom-style: solid;
+  	border-left-style: solid;
+  	border-left-width: 2px;
+  	border-right-width: 2px;
+  	border-bottom-width: 2px;
+  	border-color: $negro;
+  	color:$blanco;
+    font-family:futurabt;
+    font-size:24px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+    padding-right:15px;
+    padding-left:15px;
+    margin-left:27px;
+    margin-right:27px;
+    margin-bottom:15px;
+    border-color:$blanco;
+    -webkit-box-shadow: 0px 0px 5px 2px $gris80;
+    -moz-box-shadow: 0px 0px 5px 2px $gris80;
+    box-shadow: 0px 0px 5px 2px $gris80;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    li{
+      display:block;      
+    }
+    &:hover{
+      padding-top:10px;
+      margin-top:10px;
+    }
+  }
+}
+  .gingivitis  {
+    background-color:$rosachicle;
+    &:hover{
+      background-color:$rosachicle3
+      }
+    }
+  .periodonitis{
+    background-color:$verdeazul1;
+    &:hover{
+      background-color:$verdeazul2;
+      }
+    }
+  .implantes   {
+    background-color:$verde;
+    &:hover{
+      background-color:$verde2;
+      }
+    }
+  .recontorneo {
+    background-color:$jugodedurazno;
+    &:hover{
+      background-color:$melon
+      }
+    }
+  .recesion    {
+    background-color:$durazno;
+    &:hover{
+      background-color:$yogurtdedurazno;
+      }
+    }

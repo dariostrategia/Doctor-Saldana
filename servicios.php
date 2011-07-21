@@ -28,9 +28,20 @@
     </header>
     <div id="main" role="main">
 			<div id="main-inner">
-				<div class="sonrisasaldana">
-				<img src="img/servicios.png" width="930" height="93" alt="Servicios">
-				</div><!-- .sonrisasaldana -->
+				<div class="sonrisasaldana"></div><!-- .sonrisasaldana -->
+				<div class="servicios-up">
+					<div class="sectionimg">
+						
+					</div><!-- .sectionimg -->
+					<ul>
+						<li class="servicioboton gingivitis  ">Gingivitis</li>
+						<li class="servicioboton periodonitis">Periodonitis</li>
+						<li class="servicioboton implantes   ">Implantes</li>
+						<li class="servicioboton recontorneo ">Recontorneo</li>
+						<li class="servicioboton recesion    ">Recesión</li>
+					</ul>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem ligula. Phasellus vulputate risus vel diam placerat ac tempor massa elementum. Pellentesque id nisl vitae elit tincidunt hendrerit non et felis. Vivamus luctus, tellus ut rhoncus ornare, tellus mauris eleifend neque, eu congue risus augue sed nisl. Duis odio felis, lobortis et cursus vitae, auctor non risus. Nulla facilisi. Nullam in nunc ut metus tristique iaculis. Duis euismod, est imperdiet consequat rutrum, nunc ligula.
+				</div>
 			</div><!-- #main-inner -->
     </div>
     <footer>

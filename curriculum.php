@@ -33,7 +33,7 @@
 				<h2>Dr. Miguel Favio Saldaña Rodríguez</h2>
 				<div class="curriculumdivleft">
 					<img src="elementos-de-la-pagina/fotografia.jpg" width="218" height="322" alt="Fotografia" style="">
-					<a href="CurriculumDr.pdf" title="Descargar currículum completo" style="text-decoration:none;"><img src="img/pdf.png" width="64" height="64" alt="Pdf"> Versión PDF</a>
+					<a href="CurriculumDr.pdf" title="Descargar currículum completo" style="text-decoration:none;"><img src="img/pdf.png" width="64" height="64" alt="Pdf" target="_blank" > Versión PDF</a>
 				</div><!-- .curriculumdivleft -->
 				<div class="curriculumdivright">
 					<h3>Estudios</h3>

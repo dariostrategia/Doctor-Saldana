@@ -270,9 +270,8 @@ a:hover {
 body {
   background-color: white;
   background-image: url("img/bgnd.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: -32px;
+  background-repeat: repeat-y;
+  background-position: center top;
   margin: 0px; }
 
 #contenedor {
@@ -754,12 +753,13 @@ h6 {
   font-size: 1.2em; }
 
 dl {
-  line-height: 1.8em;
+  line-height: 1.3em;
   font-size: 1.2em;
   display: inline-table; }
   dl dt {
     margin-bottom: 10px;
-    background: #f4c548;
+    background: #005f6f;
+    color: white;
     padding: 5px 10px;
     width: 130px;
     text-align: center;
@@ -786,13 +786,13 @@ dl {
 
 @-webkit-keyframes alafechaCOL {
   from {
-    background-color: #f4c548; }
+    background-color: #005f6f; }
 
   50% {
-    background-color: #f2ba21; }
+    background-color: #009999; }
 
   to {
-    background-color: #f4c548; } }
+    background-color: #005f6f; } }
 
 .alafecha {
   -webkit-animation-name: alafechaCOL;
@@ -880,3 +880,79 @@ face {
 .curriculumdivright {
   width: 600px;
   float: right; }
+
+.sonrisasaldana {
+  width: 930px;
+  height: 93px;
+  background: url("img/servicios.png") no-repeat left;
+  clear: both; }
+
+.servicios-up .sectionimg {
+  width: 830px;
+  height: 250px;
+  background: url("img/servicios.jpg") no-repeat top center;
+  margin: auto;
+  z-index: 1; }
+.servicios-up .servicioboton {
+  list-style-type: none;
+  list-style-image: none;
+  display: inline;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-color: black;
+  color: white;
+  font-family: futurabt;
+  font-size: 24px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-bottom: 15px;
+  border-color: white;
+  -webkit-box-shadow: 0px 0px 5px 2px #cccccc;
+  -moz-box-shadow: 0px 0px 5px 2px #cccccc;
+  box-shadow: 0px 0px 5px 2px #cccccc;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  .servicios-up .servicioboton li {
+    display: block; }
+  .servicios-up .servicioboton:hover {
+    padding-top: 10px;
+    margin-top: 10px; }
+
+.gingivitis {
+  background-color: #ff5e99; }
+  .gingivitis:hover {
+    background-color: #dd6c7a; }
+
+.periodonitis {
+  background-color: #00a38b; }
+  .periodonitis:hover {
+    background-color: #00d2b3; }
+
+.implantes {
+  background-color: #979e14; }
+  .implantes:hover {
+    background-color: #bcc518; }
+
+.recontorneo {
+  background-color: #f2ba21; }
+  .recontorneo:hover {
+    background-color: #f4c548; }
+
+.recesion {
+  background-color: #df8b19; }
+  .recesion:hover {
+    background-color: #eaa03e; }

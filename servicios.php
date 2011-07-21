@@ -41,6 +41,183 @@
 						<li class="servicioboton recesion    ">Recesión</li>
 					</ul>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lorem ligula. Phasellus vulputate risus vel diam placerat ac tempor massa elementum. Pellentesque id nisl vitae elit tincidunt hendrerit non et felis. Vivamus luctus, tellus ut rhoncus ornare, tellus mauris eleifend neque, eu congue risus augue sed nisl. Duis odio felis, lobortis et cursus vitae, auctor non risus. Nulla facilisi. Nullam in nunc ut metus tristique iaculis. Duis euismod, est imperdiet consequat rutrum, nunc ligula.
+					<div class="contenedor-serv gingivitis">
+          	<div class="parte1">
+          		<div class="nombre-serv">
+          			<h1></h1>
+          		</div><!-- .nombre-serv -->
+          		<div class="antes">
+          			<div class="txt">
+          				Antes
+          			</div><!-- .txt -->
+          		</div><!-- .antes -->
+          		<div class="despues">
+          			<div class="txt">
+          				Después
+          			</div><!-- .txt -->
+          		</div><!-- .despues -->
+          	</div><!-- .parte1 -->
+          	<div class="parte2">
+          		<ul>
+          			<li>Tratamiento</li>
+          			<li>Síntomas</li>
+          		</ul>
+          		<div class="cuadro-tratamiento">
+          			<h1>Tratamiento</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-tratamiento -->
+          		<div class="cuadro-sintomas">
+          			<h1>Síntomas</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-sintomas -->
+          	</div><!-- .parte2 -->
+          </div><!-- .contenedor-serv gingivitis -->
+          <div class="contenedor-serv periodontitis">
+          	<div class="parte1">
+          		<div class="nombre-serv">
+          			<h1>Periodontitis</h1>
+          		</div><!-- .nombre-serv -->
+          		<div class="antes">
+          			<div class="txt">
+          				Antes
+          			</div><!-- .txt -->
+          		</div><!-- .antes -->
+          		<div class="despues">
+          			<div class="txt">
+          				Después
+          			</div><!-- .txt -->
+          		</div><!-- .despues -->
+          	</div><!-- .parte1 -->
+          	<div class="parte2">
+          		<ul>
+          			<li>Tratamiento</li>
+          			<li>Síntomas</li>
+          		</ul>
+          		<div class="cuadro-tratamiento">
+          			<h1>Tratamiento</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-tratamiento -->
+          		<div class="cuadro-sintomas">
+          			<h1>Síntomas</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-sintomas -->
+          	</div><!-- .parte2 -->
+          </div><!-- .contenedor-serv periodontitis -->
+          <div class="contenedor-serv implantes">
+          	<div class="parte1">
+          		<div class="nombre-serv">
+          			<h1>Implantes</h1>
+          		</div><!-- .nombre-serv -->
+          		<div class="antes">
+          			<div class="txt">
+          				Antes
+          			</div><!-- .txt -->
+          		</div><!-- .antes -->
+          		<div class="despues">
+          			<div class="txt">
+          				Después
+          			</div><!-- .txt -->
+          		</div><!-- .despues -->
+          	</div><!-- .parte1 -->
+          	<div class="parte2">
+          		<ul>
+          			<li>Tratamiento</li>
+          			<li>Síntomas</li>
+          		</ul>
+          		<div class="cuadro-tratamiento">
+          			<h1>Tratamiento</h1>
+          			<ul>
+          				<li>Pérdida de la pieza dental por cualquier causa.</li>
+          				<li>Cualquier pieza dental que falte.</li>
+          			</ul>
+          		</div><!-- .cuadro-tratamiento .implantes -->
+          		<div class="cuadro-sintomas">
+          			<h1>Síntomas</h1>
+          			<ul>
+          				<li>Pérdida de la pieza dental por cualquier causa.</li>
+          				<li>Cualquier pieza dental que falte.</li>
+          			</ul>
+          		</div><!-- .cuadro-sintomas -->
+          	</div><!-- .parte2 -->
+          </div><!-- .contenedor-serv -->
+          <div class="contenedor-serv recontorneo">
+          	<div class="parte1">
+          		<div class="nombre-serv">
+          			<h1>Recontorneo</h1>
+          		</div><!-- .nombre-serv  -->
+          		<div class="antes">
+          			<div class="txt">
+          				Antes
+          			</div><!-- .txt -->
+          		</div><!-- .antes -->
+          		<div class="despues">
+          			<div class="txt">
+          				Después
+          			</div><!-- .txt -->
+          		</div><!-- .despues -->
+          	</div><!-- .parte1 -->
+          	<div class="parte2">
+          		<ul>
+          			<li>Tratamiento</li>
+          			<li>Síntomas</li>
+          		</ul>
+          		<div class="cuadro-tratamiento">
+          			<h1>Tratamiento</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-tratamiento -->
+          		<div class="cuadro-sintomas">
+          			<h1>Síntomas</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-sintomas -->
+          	</div><!-- .parte2 -->
+          </div><!-- .contenedor-serv .recontorneo -->
+          <div class="contenedor-serv recesion">
+          	<div class="parte1">
+          		<div class="nombre-serv">
+          			<h1>Recesión</h1>
+          		</div><!-- .nombre-serv -->
+          		<div class="antes">
+          			<div class="txt">
+          				Antes
+          			</div><!-- .txt -->
+          		</div><!-- .antes -->
+          		<div class="despues">
+          			<div class="txt">
+          				Después
+          			</div><!-- .txt -->
+          		</div><!-- .despues -->
+          	</div><!-- .parte1 -->
+          	<div class="parte2">
+          		<ul>
+          			<li>Tratamiento</li>
+          			<li>Síntomas</li>
+          		</ul>
+          		<div class="cuadro-tratamiento">
+          			<h1>Tratamiento</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-tratamiento -->
+          		<div class="cuadro-sintomas">
+          			<h1>Síntomas</h1>
+          			<ul>
+          				<li></li>
+          			</ul>
+          		</div><!-- .cuadro-sintomas -->
+          	</div><!-- .parte2 -->
+          </div><!-- .contenedor-serv .recesion -->
 				</div>
 			</div><!-- #main-inner -->
     </div>

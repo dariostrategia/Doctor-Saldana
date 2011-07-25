@@ -37,7 +37,6 @@ $verdeazul2 :#00D2B3;
 $yogurtdedurazno :#EAA03E;
 @charset "utf-8";
 
-
 /* HTML5 ✰ Boilerplate */
 
 html, body, div, span, object, iframe,
@@ -865,7 +864,7 @@ face {
       background-color:$rosachicle3
       }
     }
-  .periodonitis{
+  .periodontitis{
     background-color:$verdeazul1;
     &:hover{
       background-color:$verdeazul2;
@@ -889,48 +888,78 @@ face {
       background-color:$yogurtdedurazno;
       }
     }
-    .contenedor-serv{
-      .parte1{
-        .nombre-serv{
-          h1{
-          }
-        }
-        .antes{
-          .txt{
-
-          }
-        }
-        .despues{
-          .txt{
-
-          }
-        }
+.contenedor-serv{
+  width:840px;
+  height:290px;
+  background-color:transparent;
+  .parte1{
+    width:510px;
+    height: 275px;
+    .nombre-serv{
+      min-width:240px;
+      height:60px;
+      background:red;
       }
-      .parte2{
-        ul{
-          li {
-
-          }
-        }
-        .cuadro-tratamiento{
-          h1{
-
-          }
-          ul{
-            li{
-
-            }
-          }
-        }
-        .cuadro-sintomas{
-          h1{
-
-          }
-          ul{
-            li{
-
-            }
-          }
+	font-size: 6px;
+	line-height: 1.24455px;
+    .antes{
+      width:204px;
+      height:129px;
+      .txt{
+        width:55px;
+        height:18px;
+      }
+    }
+    .despues{
+      width:55px;
+      height:18px;
+      /* for firefox, safari, chrome, etc. */
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      /* for ie */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      .txt{
+        
+      }
+    }
+  }
+  .parte2{
+    width:305px;
+    height:230px;
+    ul.opcionesp2{
+      
+      li {
+        display:block;
+        width:111px;
+        height:32px;
+        /* for firefox, safari, chrome, etc. */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        /* for ie */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      }
+    }
+    .cuadro-tratamiento{
+      width:305px;
+      height:230px;
+      h1{
+        
+      }
+      ul{
+        li{
+          
         }
       }
     }
+    .cuadro-sintomas{
+      h1{
+        
+      }
+      ul{
+        li{
+          
+        }
+      }
+    }
+  }
+}

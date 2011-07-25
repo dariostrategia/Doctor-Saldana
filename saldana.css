@@ -937,9 +937,9 @@ face {
   .gingivitis:hover {
     background-color: #dd6c7a; }
 
-.periodonitis {
+.periodontitis {
   background-color: #00a38b; }
-  .periodonitis:hover {
+  .periodontitis:hover {
     background-color: #00d2b3; }
 
 .implantes {
@@ -956,3 +956,46 @@ face {
   background-color: #df8b19; }
   .recesion:hover {
     background-color: #eaa03e; }
+
+.contenedor-serv {
+  width: 840px;
+  height: 290px;
+  background-color: transparent; }
+  .contenedor-serv .parte1 {
+    width: 510px;
+    height: 275px;
+    font-size: 6px;
+    line-height: 1.24455px; }
+    .contenedor-serv .parte1 .nombre-serv {
+      min-width: 240px;
+      height: 60px;
+      background: red; }
+    .contenedor-serv .parte1 .antes {
+      width: 204px;
+      height: 129px; }
+      .contenedor-serv .parte1 .antes .txt {
+        width: 55px;
+        height: 18px; }
+    .contenedor-serv .parte1 .despues {
+      width: 55px;
+      height: 18px;
+      /* for firefox, safari, chrome, etc. */
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      /* for ie */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+  .contenedor-serv .parte2 {
+    width: 305px;
+    height: 230px; }
+    .contenedor-serv .parte2 ul.opcionesp2 li {
+      display: block;
+      width: 111px;
+      height: 32px;
+      /* for firefox, safari, chrome, etc. */
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      /* for ie */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+    .contenedor-serv .parte2 .cuadro-tratamiento {
+      width: 305px;
+      height: 230px; }

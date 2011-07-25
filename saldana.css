@@ -435,78 +435,45 @@ nav, .nav {
     color: white;
     font-size: 30px; }
 
-.rojo_s {
-  float: left;
-  height: 32px;
-  width: 70px;
-  background-color: #d1374a;
-  border-radius: 10px 10px 10px 10px;
+.servicio {
   -moz-border-radius: 10px 10px 10px 10px;
-  color: white;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  float: left;
   font-family: futurabt;
-  padding-top: 90px;
-  padding-left: 60px;
-  font-size: 24px; }
+  font-size: 24px;
+  height: 39px;
+  margin: 6px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+  text-align: right;
+  text-decoration: none;
+  vertical-align: baseline;
+  width: 140px; }
+
+.rojo_s {
+  background-color: #d1374a; }
   .rojo_s:hover {
     background-color: #dd6c7a; }
 
 .aqua_s {
-  float: left;
-  height: 32px;
-  width: 90px;
-  background-color: #00a38b;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  color: white;
-  font-family: futurabt;
-  padding-top: 90px;
-  padding-left: 40px;
-  font-size: 24px; }
+  background-color: #00a38b; }
   .aqua_s:hover {
     background-color: #00d2b3; }
 
 .verde_s {
-  float: left;
-  height: 32px;
-  width: 75px;
-  background-color: #979e14;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  color: white;
-  font-family: futurabt;
-  padding-top: 90px;
-  padding-left: 55px;
-  font-size: 24px; }
+  background-color: #979e14; }
   .verde_s:hover {
     background-color: #bcc518; }
 
 .amarillo_s {
-  float: left;
-  height: 32px;
-  width: 90px;
-  background-color: #f2ba21;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  color: white;
-  font-family: futurabt;
-  padding-top: 90px;
-  padding-left: 40px;
-  font-size: 24px; }
+  background-color: #f2ba21; }
   .amarillo_s:hover {
     background-color: #f4c548; }
 
 .naranja_s {
-  float: left;
-  height: 32px;
-  width: 70px;
-  background-color: #df8b19;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  color: white;
-  font-family: futurabt;
-  padding-top: 90px;
-  padding-left: 60px;
-  font-size: 24px; }
+  background-color: #df8b19; }
   .naranja_s:hover {
     background-color: #eaa03e; }
 

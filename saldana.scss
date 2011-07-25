@@ -333,78 +333,46 @@ nav, .nav {
 
 .cuadro_servicios {}
 
+.servicio{
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  color: white !important;
+  float: left;
+  font-family: futurabt;
+  font-size: 24px;
+  height: 39px;
+  margin: 6px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+  text-align: right;
+  text-decoration:none;
+  vertical-align: baseline;
+  width: 140px;
+  }
+
 .rojo_s {
-  float:left;
-  height:32px;
-  width:70px;
   background-color:$rosachicle2;
-  border-radius:10px 10px 10px 10px;
-  -moz-border-radius:10px 10px 10px 10px;
-  color:$blanco;
-  font-family:futurabt;
-  padding-top:90px;
-  padding-left:60px;
-  font-size:24px;
   &:hover {
     background-color:$rosachicle3; } }
 
 .aqua_s {
-  float:left;
-  height:32px;
-  width:90px;
   background-color:$verdeazul1;
-  border-radius:10px 10px 10px 10px;
-  -moz-border-radius:10px 10px 10px 10px;
-  color:$blanco;
-  font-family:futurabt;
-  padding-top:90px;
-  padding-left:40px;
-  font-size:24px;
   &:hover {
     background-color:$verdeazul2; } }
 
 .verde_s {
-  float:left;
-  height:32px;
-  width:75px;
   background-color:$verde;
-  border-radius:10px 10px 10px 10px;
-  -moz-border-radius:10px 10px 10px 10px;
-  color:$blanco;
-  font-family:futurabt;
-  padding-top:90px;
-  padding-left:55px;
-  font-size:24px;
   &:hover {
     background-color:$verde2; } }
 
 .amarillo_s {
-  float:left;
-  height:32px;
-  width:90px;
   background-color:$jugodedurazno;
-  border-radius:10px 10px 10px 10px;
-  -moz-border-radius:10px 10px 10px 10px;
-  color:$blanco;
-  font-family:futurabt;
-  padding-top:90px;
-  padding-left:40px;
-  font-size:24px;
   &:hover {
     background-color:$melon; } }
 
 .naranja_s {
-  float:left;
-  height:32px;
-  width:70px;
   background-color:$durazno;
-  border-radius:10px 10px 10px 10px;
-  -moz-border-radius:10px 10px 10px 10px;
-  color:$blanco;
-  font-family:futurabt;
-  padding-top:90px;
-  padding-left:60px;
-  font-size:24px;
   &:hover {
     background-color:$yogurtdedurazno; } }
 
@@ -858,36 +826,36 @@ face {
     }
   }
 }
-  .gingivitis  {
-    background-color:$rosachicle;
-    &:hover{
-      background-color:$rosachicle3
-      }
+.gingivitis  {
+  background-color:$rosachicle;
+  &:hover{
+    background-color:$rosachicle3
     }
-  .periodontitis{
-    background-color:$verdeazul1;
-    &:hover{
-      background-color:$verdeazul2;
-      }
+  }
+.periodontitis{
+  background-color:$verdeazul1;
+  &:hover{
+    background-color:$verdeazul2;
     }
-  .implantes   {
-    background-color:$verde;
-    &:hover{
-      background-color:$verde2;
-      }
+  }
+.implantes   {
+  background-color:$verde;
+  &:hover{
+    background-color:$verde2;
     }
-  .recontorneo {
-    background-color:$jugodedurazno;
-    &:hover{
-      background-color:$melon
-      }
+  }
+.recontorneo {
+  background-color:$jugodedurazno;
+  &:hover{
+    background-color:$melon
     }
-  .recesion    {
-    background-color:$durazno;
-    &:hover{
-      background-color:$yogurtdedurazno;
-      }
+  }
+.recesion    {
+  background-color:$durazno;
+  &:hover{
+    background-color:$yogurtdedurazno;
     }
+  }
 .contenedor-serv{
   width:840px;
   height:290px;

@@ -9,3 +9,4 @@ Disallow: /fonts/
 Disallow: /galeria_index/
 Disallow: /img/
 Disallow: /js/
+Disallow: /servicios/

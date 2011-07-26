@@ -949,7 +949,7 @@ face {
   border: none;
   /* this is the border. should have the same value for the links */
   margin: auto;
-  width: 800px;
+  width: 900px;
   /* Also specified in  .stripViewer .panelContainer .panel  below */
   height: 460px;
   clear: both;
@@ -968,7 +968,7 @@ face {
   float: left;
   height: 100%;
   position: relative;
-  width: 800px;
+  width: 900px;
   /* Also specified in  .stripViewer  above */ }
 
 .stripViewer .panelContainer .panel .wrapper {
@@ -1001,76 +1001,165 @@ face {
 .stripNavR {
   right: 0; }
 
-/*
-.contenedor-serv{
-  width:840px;
-  height:290px;
-  background-color:transparent;
-  .parte1{
-    width:510px;
-    height: 275px;
-    .nombre-serv{
-      min-width:240px;
-      height:60px;
-      background:red;
-      }
-	font-size: 6px;
-	line-height: 1.24455px;
-    .antes{
-      width:204px;
-      height:129px;
-      .txt{
-        width:55px;
-        height:18px;
-      }
-    }
-    .despues{
-      width:55px;
-      height:18px;
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-      .txt{
-        
-      }
-    }
-  }
-  .parte2{
-    width:305px;
-    height:230px;
-    ul.opcionesp2{
-      
-      li {
-        display:block;
-        width:111px;
-        height:32px;
+.contenedor-serv {
+  font-family: texto;
+  color: white;
+  background-color: transparent; }
+  .contenedor-serv:hover {
+    background-color: transparent; }
+  .contenedor-serv .parte1 {
+    width: 470px;
+    height: 225px;
+    padding: 5px;
+    background: blue;
+    border: solid 5px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5); }
+    .contenedor-serv .parte1 .nombre-serv {
+      width: 228px;
+      height: 48px;
+      padding: 5px;
+      -moz-border-radius-topleft: 0px;
+      -moz-border-radius-topright: 10px;
+      -moz-border-radius-bottomright: 10px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-radius: 0px 10px 10px 0px;
+      border-radius: 0px 10px 10px 0px;
+      background: white;
+      color: black;
+      position: relative;
+      left: -5px;
+      top: 155px;
+      z-index: 3; }
+      .contenedor-serv .parte1 .nombre-serv h3 {
+        display: block;
+        font-size: 2.3em;
+        margin: auto auto auto auto; }
+    .contenedor-serv .parte1 .antes, .contenedor-serv .parte1 .despues {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      overflow: hidden;
+      -webkit-box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.5); }
+      .contenedor-serv .parte1 .antes .txt, .contenedor-serv .parte1 .despues .txt {
+        position: relative;
+        width: 46px;
+        height: 16px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: white;
+        color: black; }
+    .contenedor-serv .parte1 .antes {
+      width: 204px;
+      height: 129px;
+      padding: 5px;
+      background: white;
+      position: relative;
+      top: -50px;
+      left: 5px;
+      z-index: 2; }
+      .contenedor-serv .parte1 .antes .txt {
+        position: relative;
+        top: 112px;
+        right: -153px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 0px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-radius: 5px 0px 0px 0px;
+        border-radius: 5px 0px 5px 0px; }
+    .contenedor-serv .parte1 .despues {
+      width: 204px;
+      height: 129px;
+      padding: 5px;
+      background: white;
+      position: relative;
+      top: -190px;
+      left: 229px;
+      z-index: 1; }
+      .contenedor-serv .parte1 .despues .txt {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
         filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-      }
-    }
-    .cuadro-tratamiento{
-      width:305px;
-      height:230px;
-      h1{
-        
-      }
-      ul{
-        li{
-          
-        }
-      }
-    }
-    .cuadro-sintomas{
-      h1{
-        
-      }
-      ul{
-        li{
-          
-        }
-      }
-    }
-  }
-}
-*/
+        position: relative;
+        left: -22px;
+        top: 12px;
+        -moz-border-radius-topleft: 0px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 0px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 0px 5px 0px 5px;
+        border-radius: 0px 5px 0px 5px; }
+  .contenedor-serv .opcionesp2 {
+    display: block;
+    height: 230px;
+    width: 44px;
+    z-index: 6;
+    position: relative;
+    top: -238px;
+    right: -433px;
+    z-index: 6; }
+    .contenedor-serv .opcionesp2 li {
+      background-color: white;
+      color: black;
+      display: block;
+      height: 20px;
+      list-style: none;
+      padding: 5px;
+      text-align: center;
+      width: 100px;
+      z-index: 4;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-topright: 5px;
+      -moz-border-radius-bottomright: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-radius: 5px 5px 0px 0px;
+      border-radius: 5px 5px 0px 0px;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+      .contenedor-serv .opcionesp2 li:hover, .contenedor-serv .opcionesp2 li.ipsum {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        padding-bottom: 20px !important;
+        padding-top: 3px !important;
+        position: relative !important;
+        left: -32px !important; }
+      .contenedor-serv .opcionesp2 li.tratamientoli {
+        position: relative;
+        top: 160px;
+        left: -39px; }
+      .contenedor-serv .opcionesp2 li.sintomasli {
+        position: relative;
+        top: 10px;
+        left: -39px;
+        z-index: 10; }
+  .contenedor-serv .parte2 {
+    font-size: large;
+    position: relative;
+    top: -466px;
+    right: -449px;
+    z-index: -1;
+    background: white;
+    width: 328px;
+    height: 210px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 10px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5); }
+    .contenedor-serv .parte2 .cuadro-tratamiento, .contenedor-serv .parte2 .cuadro-sintomas {
+      padding-left: 40px;
+      clear: both;
+      color: black; }

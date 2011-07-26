@@ -16,13 +16,13 @@
       </div><!-- .txt -->
     </div><!-- .despues -->
   </div><!-- .parte1 -->
+  <ul class="opcionesp2">
+    <li class="tratamientoli">Tratamiento
+    </li>
+    <li class="sintomasli">Síntomas
+    </li>
+  </ul>
   <div class="parte2">
-    <ul class="opcionesp2">
-      <li>Tratamiento
-      </li>
-      <li>Síntomas
-      </li>
-    </ul>
     <div class="cuadro-tratamiento">
       <h3>
         Tratamiento

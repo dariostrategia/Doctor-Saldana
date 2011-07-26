@@ -35,6 +35,8 @@ $verde2:#BCC518;
 $verdeazul1 :#00A38B;
 $verdeazul2 :#00D2B3;
 $yogurtdedurazno :#EAA03E;
+$sombranegra:rgba(0,0,0,.5);
+
 @charset "utf-8";
 
 /* HTML5 ✰ Boilerplate */
@@ -873,7 +875,7 @@ face {
 	overflow: hidden; 
 	border: none; /* this is the border. should have the same value for the links */
 	margin: auto;
-	width: 800px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+	width: 900px; /* Also specified in  .stripViewer .panelContainer .panel  below */
 	height: 460px;
 	clear: both;
 	background: transparent ;
@@ -890,7 +892,7 @@ face {
 	float:left;
 	height: 100%;
 	position: relative;
-	width: 800px; /* Also specified in  .stripViewer  above */
+	width: 900px; /* Also specified in  .stripViewer  above */
 }
 
 .stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
@@ -926,76 +928,181 @@ face {
 	right: 0;
 }
 
-/*
 .contenedor-serv{
-  width:840px;
-  height:290px;
+  font-family: texto;
+  color:$blanco;
   background-color:transparent;
+  &:hover{background-color:transparent;}
   .parte1{
-    width:510px;
-    height: 275px;
+    width:470px;
+    height:225px;
+    padding:5px;
+    background:blue;
+    border:solid 5px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 15px 0px $sombranegra;
+    -moz-box-shadow: 0px 3px 15px 0px $sombranegra;
+    box-shadow: 0px 3px 15px 0px $sombranegra;
     .nombre-serv{
-      min-width:240px;
-      height:60px;
-      background:red;
+      width:228px;
+      height:48px;
+      padding:5px;
+      -moz-border-radius-topleft: 0px;
+      -moz-border-radius-topright: 10px;
+      -moz-border-radius-bottomright: 10px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-radius: 0px 10px 10px 0px;
+      border-radius: 0px 10px 10px 0px;
+      background:$blanco;
+      color:$negro;
+      position:relative;
+      left:-5px;
+      top:155px;
+      z-index:3;
+      h3{
+        display:block;
+        font-size:2.3em;
+        margin: auto auto auto auto;
       }
-	font-size: 6px;
-	line-height: 1.24455px;
+    }
+    .antes, .despues{
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      overflow:hidden;
+      -webkit-box-shadow: 0px 3px 10px 1px $sombranegra;
+      -moz-box-shadow: 0px 3px 10px 1px $sombranegra;
+      box-shadow: 0px 3px 10px 1px $sombranegra;
+      .txt{
+        position:relative;
+        width:46px;
+        height:16px;
+        text-align:center;
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:3px;
+        padding-bottom:3px;
+        background-color:$blanco;
+        color:$negro;
+      }
+    }
     .antes{
       width:204px;
       height:129px;
+      padding:5px;
+      background: $blanco;
+      position:relative;
+      top: -50px;
+      left: 5px;
+      z-index:2;
       .txt{
-        width:55px;
-        height:18px;
+        position:relative;
+        top: 112px;
+        right: -153px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 0px;
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 0px;
+        -webkit-border-radius: 5px 0px 0px 0px;
+        border-radius: 5px 0px 5px 0px;
       }
     }
     .despues{
-      width:55px;
-      height:18px;
+      width:204px;
+      height:129px;
+      padding:5px;
+      background: $blanco;
+      position:relative;
+      top: -190px;
+      left: 229px;
+      z-index:1;
+      .txt{
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        position:relative;
+        left: -22px;
+        top: 12px;
+        -moz-border-radius-topleft: 0px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 0px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 0px 5px 0px 5px;
+        border-radius: 0px 5px 0px 5px;
+      }
+    }
+  }
+  .opcionesp2{
+    display:block;
+    height:230px;
+    width:44px;
+    z-index:6;
+    position: relative;
+    top: -238px;
+    right: -433px;
+    z-index: 6;
+    li{
+      background-color:$blanco;
+      color:$negro;
+      display:block;
+      height:20px;
+      list-style:none;
+      padding:5px;
+      text-align:center;
+      width:100px;
+      z-index: 4;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-topright: 5px;
+      -moz-border-radius-bottomright: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      -webkit-border-radius: 5px 5px 0px 0px;
+      border-radius: 5px 5px 0px 0px;
       -webkit-transform: rotate(-90deg);
       -moz-transform: rotate(-90deg);
       filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-      .txt{
-        
+      &:hover, &.ipsum{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+        padding-bottom: 20px !important;
+        padding-top: 3px !important;
+        position: relative !important;
+        left: -32px !important;
+      }
+      &.tratamientoli{
+        position: relative;
+        top: 160px;
+        left: -39px;
+      }
+      &.sintomasli{
+        position: relative;
+        top: 10px;
+        left: -39px;
+        z-index: 10
       }
     }
   }
   .parte2{
-    width:305px;
-    height:230px;
-    ul.opcionesp2{
-      
-      li {
-        display:block;
-        width:111px;
-        height:32px;
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-      }
-    }
-    .cuadro-tratamiento{
-      width:305px;
-      height:230px;
-      h1{
-        
-      }
-      ul{
-        li{
-          
-        }
-      }
-    }
-    .cuadro-sintomas{
-      h1{
-        
-      }
-      ul{
-        li{
-          
-        }
-      }
+    font-size:large;
+    position:relative;
+    top: -466px;
+    right: -449px;
+    z-index: -1;
+    background:$blanco;
+    width:328px;
+    height:210px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 10px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,.5);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,.5);
+    .cuadro-tratamiento, .cuadro-sintomas{
+      padding-left: 40px;
+      clear:both;
+      color: $negro;
     }
   }
 }
-*/

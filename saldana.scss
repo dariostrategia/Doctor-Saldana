@@ -1,7 +1,7 @@
 $amarillopalido:#FF9;
 $azulmarino:#036;
 $blanco:#FFF;
-$durazno :#df8b19;
+$durazno :#E68F1B;
 $gris22:#383838;
 $gris40:#666;
 $gris52 :#848484;
@@ -13,14 +13,14 @@ $gris75:#BEBEBE;
 $gris79:#4f4f4f;
 $gris80:#CCC;
 $gris87 :#DFDFDF;
-$jugodedurazno :#f2ba21;
+$jugodedurazno :#FFC324;
 $melon :#F4C548;
 $negro:#000;
 $rojo:red;
 $rosamuypalido:#f0dddd;
 $rosachicle2 :#d1374a;
 $rosachicle3 :#DD6C7A;
-$rosachicle:#FF5E99;
+$rosachicle:#DB394E;
 $teal2:#007698;
 $teal3 :#00889f;
 $teal4:#2288a6;
@@ -30,9 +30,9 @@ $teal7 :#005f6f;
 $teal9 :#009999;
 $teal:#007693;
 $tiza:#607890;
-$verde :#979E14;
+$verde :#9FA716;
 $verde2:#BCC518;
-$verdeazul1 :#00A38B;
+$verdeazul1 :#00A88E;
 $verdeazul2 :#00D2B3;
 $yogurtdedurazno :#EAA03E;
 $sombranegra:rgba(0,0,0,.5);
@@ -700,7 +700,7 @@ dl{
       /* [disabled]top:581px; */
       width:41px; } } }
 
-face {
+.face {
   float:left;
   width:41px; }
 
@@ -819,11 +819,15 @@ face {
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     li{
-      display:block;      
+      display:block; 
     }
     &:hover{
       padding-top:10px;
       margin-top:10px;
+    }
+    a, a:active, a:visited, a:hover{
+      color: $blanco;
+      text-decoration:none;
     }
   }
 }
@@ -929,7 +933,7 @@ face {
 }
 
 .contenedor-serv{
-  font-family: texto;
+  font-family: futurabt, texto;
   color:$blanco;
   background-color:transparent;
   &:hover{background-color:transparent;}
@@ -937,7 +941,7 @@ face {
     width:470px;
     height:225px;
     padding:5px;
-    background:blue;
+    /*background:blue;*/
     border:solid 5px black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1103,6 +1107,96 @@ face {
       padding-left: 40px;
       clear:both;
       color: $negro;
+    }
+  }
+  &.gingivitis {
+    .parte1{
+    border-color:$teal7;
+    background-color:$rosachicle;
+    .antes, .despues{
+      background-image:none;
+    }
+    .antes{
+      background-position:0 0;
+    }
+    .despues{
+      background-position:0 0;
+    }
+    }
+    h3{
+      color:$verdeazul2;
+    }
+  }
+  &.periodontitis{ 
+    .parte1{
+      border-color:$teal;
+      background-color:$verdeazul1;
+      .antes, .despues{ 
+        background-image:none;
+      }
+      .antes{
+        background-position:0 0;
+      }
+      .despues{
+        background-position:0 0;
+      }
+    }
+    h3{
+      color:$teal9;
+    }
+  } 
+  &.implantes{ 
+    .parte1{
+      border-color:$gris75;
+      background-color:$verde;
+      .antes, .despues{
+        background-image:none;
+      }
+      .antes{
+        background-position:0 0;
+      }
+      .despues{
+        background-position:0 0;
+      }
+    } 
+    h3{
+      color:$teal9;
+    }
+  }
+  &.recontorneo{ 
+    .parte1{
+      border-color:$teal4;
+      background-color:$jugodedurazno;
+      .antes, .despues{
+        background-image:none;
+      }
+      .antes{
+        background-position:0 0;
+      }
+      .despues{
+        background-position:0 0;
+      }
+    }
+    h3{
+      color:$teal9;
+    }
+  } 
+  &.recesion { 
+    .parte1{
+      border-color:$teal6;
+      background-color:$durazno;
+      .antes, .despues{
+        background-image:none;
+      }
+      .antes{
+        background-position:0 0;
+      }
+      .despues{
+        background-position:0 0;
+      }
+    }
+    h3{
+      color:$teal6;
     }
   }
 }

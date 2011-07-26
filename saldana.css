@@ -156,7 +156,7 @@ input:invalid, textarea:invalid {
   text-shadow: none; }
 
 a:link {
-  -webkit-tap-highlight-color: #ff5e99; }
+  -webkit-tap-highlight-color: #db394e; }
 
 button {
   width: auto;
@@ -458,22 +458,22 @@ nav, .nav {
     background-color: #dd6c7a; }
 
 .aqua_s {
-  background-color: #00a38b; }
+  background-color: #00a88e; }
   .aqua_s:hover {
     background-color: #00d2b3; }
 
 .verde_s {
-  background-color: #979e14; }
+  background-color: #9fa716; }
   .verde_s:hover {
     background-color: #bcc518; }
 
 .amarillo_s {
-  background-color: #f2ba21; }
+  background-color: #ffc324; }
   .amarillo_s:hover {
     background-color: #f4c548; }
 
 .naranja_s {
-  background-color: #df8b19; }
+  background-color: #e68f1b; }
   .naranja_s:hover {
     background-color: #eaa03e; }
 
@@ -785,7 +785,7 @@ dl {
     /* [disabled]top:581px; */
     width: 41px; }
 
-face {
+.face {
   float: left;
   width: 41px; }
 
@@ -898,29 +898,32 @@ face {
   .servicios-up .servicioboton:hover {
     padding-top: 10px;
     margin-top: 10px; }
+  .servicios-up .servicioboton a, .servicios-up .servicioboton a:active, .servicios-up .servicioboton a:visited, .servicios-up .servicioboton a:hover {
+    color: white;
+    text-decoration: none; }
 
 .gingivitis {
-  background-color: #ff5e99; }
+  background-color: #db394e; }
   .gingivitis:hover {
     background-color: #dd6c7a; }
 
 .periodontitis {
-  background-color: #00a38b; }
+  background-color: #00a88e; }
   .periodontitis:hover {
     background-color: #00d2b3; }
 
 .implantes {
-  background-color: #979e14; }
+  background-color: #9fa716; }
   .implantes:hover {
     background-color: #bcc518; }
 
 .recontorneo {
-  background-color: #f2ba21; }
+  background-color: #ffc324; }
   .recontorneo:hover {
     background-color: #f4c548; }
 
 .recesion {
-  background-color: #df8b19; }
+  background-color: #e68f1b; }
   .recesion:hover {
     background-color: #eaa03e; }
 
@@ -1002,7 +1005,7 @@ face {
   right: 0; }
 
 .contenedor-serv {
-  font-family: texto;
+  font-family: futurabt, texto;
   color: white;
   background-color: transparent; }
   .contenedor-serv:hover {
@@ -1011,7 +1014,7 @@ face {
     width: 470px;
     height: 225px;
     padding: 5px;
-    background: blue;
+    /*background:blue;*/
     border: solid 5px black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1163,3 +1166,58 @@ face {
       padding-left: 40px;
       clear: both;
       color: black; }
+  .contenedor-serv.gingivitis .parte1 {
+    border-color: #005f6f;
+    background-color: #db394e; }
+    .contenedor-serv.gingivitis .parte1 .antes, .contenedor-serv.gingivitis .parte1 .despues {
+      background-image: none; }
+    .contenedor-serv.gingivitis .parte1 .antes {
+      background-position: 0 0; }
+    .contenedor-serv.gingivitis .parte1 .despues {
+      background-position: 0 0; }
+  .contenedor-serv.gingivitis h3 {
+    color: #00d2b3; }
+  .contenedor-serv.periodontitis .parte1 {
+    border-color: #007693;
+    background-color: #00a88e; }
+    .contenedor-serv.periodontitis .parte1 .antes, .contenedor-serv.periodontitis .parte1 .despues {
+      background-image: none; }
+    .contenedor-serv.periodontitis .parte1 .antes {
+      background-position: 0 0; }
+    .contenedor-serv.periodontitis .parte1 .despues {
+      background-position: 0 0; }
+  .contenedor-serv.periodontitis h3 {
+    color: #009999; }
+  .contenedor-serv.implantes .parte1 {
+    border-color: #bebebe;
+    background-color: #9fa716; }
+    .contenedor-serv.implantes .parte1 .antes, .contenedor-serv.implantes .parte1 .despues {
+      background-image: none; }
+    .contenedor-serv.implantes .parte1 .antes {
+      background-position: 0 0; }
+    .contenedor-serv.implantes .parte1 .despues {
+      background-position: 0 0; }
+  .contenedor-serv.implantes h3 {
+    color: #009999; }
+  .contenedor-serv.recontorneo .parte1 {
+    border-color: #2288a6;
+    background-color: #ffc324; }
+    .contenedor-serv.recontorneo .parte1 .antes, .contenedor-serv.recontorneo .parte1 .despues {
+      background-image: none; }
+    .contenedor-serv.recontorneo .parte1 .antes {
+      background-position: 0 0; }
+    .contenedor-serv.recontorneo .parte1 .despues {
+      background-position: 0 0; }
+  .contenedor-serv.recontorneo h3 {
+    color: #009999; }
+  .contenedor-serv.recesion .parte1 {
+    border-color: #00545f;
+    background-color: #e68f1b; }
+    .contenedor-serv.recesion .parte1 .antes, .contenedor-serv.recesion .parte1 .despues {
+      background-image: none; }
+    .contenedor-serv.recesion .parte1 .antes {
+      background-position: 0 0; }
+    .contenedor-serv.recesion .parte1 .despues {
+      background-position: 0 0; }
+  .contenedor-serv.recesion h3 {
+    color: #00545f; }

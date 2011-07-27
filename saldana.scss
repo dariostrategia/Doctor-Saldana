@@ -165,9 +165,8 @@ a:hover { color:$azulmarino; }
 body {
   background-color:$blanco;
   background-image:url('img/bgnd.png');
-  background-attachment:fixed;
-  background-repeat:repeat-y;
-  background-position: center top;
+  background-repeat:no-repeat;
+  background-position:center top;
   margin:0px; }
 
 #contenedor {

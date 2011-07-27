@@ -270,8 +270,7 @@ a:hover {
 body {
   background-color: white;
   background-image: url("img/bgnd.png");
-  background-attachment: fixed;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-position: center top;
   margin: 0px; }
 

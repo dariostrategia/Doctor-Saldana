@@ -927,7 +927,7 @@ dl{
     .antes{
       width:204px;
       height:129px;
-      padding:5px;
+      border:solid $blanco 5px;
       background: $blanco;
       position:relative;
       top: -50px;
@@ -948,7 +948,7 @@ dl{
     .despues{
       width:204px;
       height:129px;
-      padding:5px;
+      border:solid $blanco 5px;
       background: $blanco;
       position:relative;
       top: -190px;
@@ -1047,13 +1047,13 @@ dl{
     border-color:$teal7;
     background-color:$rosachicle;
     .antes, .despues{
-      background-image:none;
+      background-image:url('img/fotosantesydespues.jpg');
     }
     .antes{
       background-position:0 0;
     }
     .despues{
-      background-position:0 0;
+      background-position: 204px 0;
     }
     }
     h3{
@@ -1065,13 +1065,13 @@ dl{
       border-color:$teal;
       background-color:$verdeazul1;
       .antes, .despues{ 
-        background-image:none;
+        background-image:url('img/fotosantesydespues.jpg');
       }
       .antes{
-        background-position:0 0;
+        background-position:0 -129px;
       }
       .despues{
-        background-position:0 0;
+        background-position: 204px -129px;
       }
     }
     h3{
@@ -1083,13 +1083,13 @@ dl{
       border-color:$gris75;
       background-color:$verde;
       .antes, .despues{
-        background-image:none;
+        background-image:url('img/fotosantesydespues.jpg');
       }
       .antes{
-        background-position:0 0;
+        background-position:0 -258px;
       }
       .despues{
-        background-position:0 0;
+        background-position: 204px -258px;
       }
     } 
     h3{
@@ -1101,13 +1101,13 @@ dl{
       border-color:$teal4;
       background-color:$jugodedurazno;
       .antes, .despues{
-        background-image:none;
+        background-image:url('img/fotosantesydespues.jpg');
       }
       .antes{
-        background-position:0 0;
+        background-position:0 -388px;
       }
       .despues{
-        background-position:0 0;
+        background-position: 204px -388px;
       }
     }
     h3{
@@ -1119,13 +1119,13 @@ dl{
       border-color:$teal6;
       background-color:$durazno;
       .antes, .despues{
-        background-image:none;
+        background-image:url('img/fotosantesydespues.jpg');
       }
       .antes{
-        background-position:0 0;
+        background-position:0 -516px;
       }
       .despues{
-        background-position:0 0;
+        background-position: 204px -516px;
       }
     }
     h3{
@@ -1144,7 +1144,7 @@ dl{
     padding-bottom: 10px;
 }
 .scroll {
-    height: 265px;
+    height: 465px;
     width: 970px;
     overflow: auto;
     overflow-x: hidden;

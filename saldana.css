@@ -989,7 +989,7 @@ dl {
     .contenedor-serv .parte1 .antes {
       width: 204px;
       height: 129px;
-      padding: 5px;
+      border: solid white 5px;
       background: white;
       position: relative;
       top: -50px;
@@ -1008,7 +1008,7 @@ dl {
     .contenedor-serv .parte1 .despues {
       width: 204px;
       height: 129px;
-      padding: 5px;
+      border: solid white 5px;
       background: white;
       position: relative;
       top: -190px;
@@ -1096,55 +1096,55 @@ dl {
     border-color: #005f6f;
     background-color: #db394e; }
     .contenedor-serv.gingivitis .parte1 .antes, .contenedor-serv.gingivitis .parte1 .despues {
-      background-image: none; }
+      background-image: url("img/fotosantesydespues.jpg"); }
     .contenedor-serv.gingivitis .parte1 .antes {
       background-position: 0 0; }
     .contenedor-serv.gingivitis .parte1 .despues {
-      background-position: 0 0; }
+      background-position: 204px 0; }
   .contenedor-serv.gingivitis h3 {
     color: #00d2b3; }
   .contenedor-serv.periodontitis .parte1 {
     border-color: #007693;
     background-color: #00a88e; }
     .contenedor-serv.periodontitis .parte1 .antes, .contenedor-serv.periodontitis .parte1 .despues {
-      background-image: none; }
+      background-image: url("img/fotosantesydespues.jpg"); }
     .contenedor-serv.periodontitis .parte1 .antes {
-      background-position: 0 0; }
+      background-position: 0 -129px; }
     .contenedor-serv.periodontitis .parte1 .despues {
-      background-position: 0 0; }
+      background-position: 204px -129px; }
   .contenedor-serv.periodontitis h3 {
     color: #009999; }
   .contenedor-serv.implantes .parte1 {
     border-color: #bebebe;
     background-color: #9fa716; }
     .contenedor-serv.implantes .parte1 .antes, .contenedor-serv.implantes .parte1 .despues {
-      background-image: none; }
+      background-image: url("img/fotosantesydespues.jpg"); }
     .contenedor-serv.implantes .parte1 .antes {
-      background-position: 0 0; }
+      background-position: 0 -258px; }
     .contenedor-serv.implantes .parte1 .despues {
-      background-position: 0 0; }
+      background-position: 204px -258px; }
   .contenedor-serv.implantes h3 {
     color: #009999; }
   .contenedor-serv.recontorneo .parte1 {
     border-color: #2288a6;
     background-color: #ffc324; }
     .contenedor-serv.recontorneo .parte1 .antes, .contenedor-serv.recontorneo .parte1 .despues {
-      background-image: none; }
+      background-image: url("img/fotosantesydespues.jpg"); }
     .contenedor-serv.recontorneo .parte1 .antes {
-      background-position: 0 0; }
+      background-position: 0 -388px; }
     .contenedor-serv.recontorneo .parte1 .despues {
-      background-position: 0 0; }
+      background-position: 204px -388px; }
   .contenedor-serv.recontorneo h3 {
     color: #009999; }
   .contenedor-serv.recesion .parte1 {
     border-color: #00545f;
     background-color: #e68f1b; }
     .contenedor-serv.recesion .parte1 .antes, .contenedor-serv.recesion .parte1 .despues {
-      background-image: none; }
+      background-image: url("img/fotosantesydespues.jpg"); }
     .contenedor-serv.recesion .parte1 .antes {
-      background-position: 0 0; }
+      background-position: 0 -516px; }
     .contenedor-serv.recesion .parte1 .despues {
-      background-position: 0 0; }
+      background-position: 204px -516px; }
   .contenedor-serv.recesion h3 {
     color: #00545f; }
 
@@ -1157,7 +1157,7 @@ dl {
   padding-bottom: 10px; }
 
 .scroll {
-  height: 265px;
+  height: 465px;
   width: 970px;
   overflow: auto;
   overflow-x: hidden;

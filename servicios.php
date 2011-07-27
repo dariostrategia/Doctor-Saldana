@@ -16,22 +16,6 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
 
   <link rel="stylesheet" href="saldana.css">
-  <script src="js/libs/modernizr-1.7.min.js"></script>
-  <script src="js/jquery-1.2.1.pack.js" charset="utf-8"></script>
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="js/plugins.js"></script>
-  <script src="js/jquery.scrollTo-1.4.2-min.js" charset="utf-8"></script>
-  <script src="js/jquery.localscroll-1.2.7-min.js" charset="utf-8"></script>
-  <script src="js/jquery.serialScroll-1.2.2-min.js" charset="utf-8"></script>
-  <script src="js/script.js"></script>
-  <script src="js/codaslider.js" type="text/javascript" charset="utf-8"></script>
-  
-  <!-- end scripts-->
-
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg");</script>
-  <![endif]-->
 </head>
 
 <body>
@@ -53,7 +37,6 @@
             <li class="servicioboton recontorneo"><a href="#recontorneo" alt="Recontorneo">Recontorneo</a></li>
             <li class="servicioboton recesion"><a href="#recesion" alt="Recesión">Recesión</a></li>
           </ul>
-
           <div class="scroll">
             <div class="scrollContainer">
               <?php include 'servicios/gingivitis.php'; ?>
@@ -72,6 +55,21 @@
   </div> <!-- eo #container -->
 	<?php include 'elementos-de-la-pagina/telefono.php'; ?>
 
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
+  <script src="js/jquery.localscroll-1.2.5.js" charset="utf-8"></script>
+  <script src="js/jquery.serialScroll-1.2.1.js" charset="utf-8"></script>
+  <script src="js/coda-slider.js" charset="utf-8"></script>
+  <!-- end scripts-->
 
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
 </body>
 </html>

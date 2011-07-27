@@ -1,4 +1,4 @@
-<div class="contenedor-serv periodontitis">
+<div class="panel contenedor-serv periodontitis" id="periodontitis">
   <div class="parte1">
     <div class="nombre-serv">
       <h3>

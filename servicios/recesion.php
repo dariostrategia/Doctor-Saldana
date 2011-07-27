@@ -1,4 +1,4 @@
-<div class="contenedor-serv recesion">
+<div class="panel contenedor-serv recesion" id="recesion">
   <div class="parte1">
     <div class="nombre-serv">
       <h3>

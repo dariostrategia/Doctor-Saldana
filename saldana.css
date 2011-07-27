@@ -927,87 +927,11 @@ dl {
   .recesion:hover {
     background-color: #eaa03e; }
 
-/*CODA SLIDER*/
-.slider-wrap {
-  /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
-  margin: 20px 0;
-  position: relative;
-  width: 100%; }
-
-/* These 2 lines specify style applied while slider is loading */
-.csw {
-  width: 100%;
-  height: 460px;
-  background: #fff;
-  overflow: scroll; }
-
-.csw .loading {
-  margin: 200px 0 300px 0;
-  text-align: center; }
-
-.stripViewer {
-  /* This is the viewing window */
-  position: relative;
-  overflow: hidden;
-  border: none;
-  /* this is the border. should have the same value for the links */
-  margin: auto;
-  width: 900px;
-  /* Also specified in  .stripViewer .panelContainer .panel  below */
-  height: 460px;
-  clear: both;
-  background: transparent; }
-
-.stripViewer .panelContainer {
-  /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  list-style-type: none; }
-
-.stripViewer .panelContainer .panel {
-  /* Each panel is arranged end-to-end */
-  float: left;
-  height: 100%;
-  position: relative;
-  width: 900px;
-  /* Also specified in  .stripViewer  above */ }
-
-.stripViewer .panelContainer .panel .wrapper {
-  /* Wrapper to give some padding in the panels, without messing with existing panel width */
-  padding: 10px; }
-
-.stripNav {
-  /* This is the div to hold your nav (the UL generated at run time) */
-  margin: auto; }
-
-.stripNav ul {
-  /* The auto-generated set of links */
-  list-style: none;
-  display: none; }
-
-.stripNavL, .stripNavR {
-  /* The left and right arrows */
-  position: absolute;
-  top: 230px;
-  text-indent: -9000em; }
-
-.stripNavL a, .stripNavR a {
-  display: block;
-  height: 40px;
-  width: 40px; }
-
-.stripNavL {
-  left: 0; }
-
-.stripNavR {
-  right: 0; }
-
 .contenedor-serv {
   font-family: futurabt, texto;
   color: white;
-  background-color: transparent; }
+  background-color: transparent;
+  height: 300px; }
   .contenedor-serv:hover {
     background-color: transparent; }
   .contenedor-serv .parte1 {
@@ -1161,7 +1085,8 @@ dl {
     border: solid 10px #b1b1b1;
     -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden; }
     .contenedor-serv .parte2 .cuadro-tratamiento, .contenedor-serv .parte2 .cuadro-sintomas {
       padding-left: 40px;
       clear: both;
@@ -1221,3 +1146,30 @@ dl {
       background-position: 0 0; }
   .contenedor-serv.recesion h3 {
     color: #00545f; }
+
+/*slider*/
+#wrapper {
+  width: 760px;
+  margin: 0 auto; }
+
+#intro {
+  padding-bottom: 10px; }
+
+.scroll {
+  height: 265px;
+  width: 970px;
+  overflow: auto;
+  overflow-x: hidden;
+  position: relative;
+  clear: left; }
+
+.scrollContainer div.panel {
+  padding: 20px;
+  height: 270px;
+  width: 930px; }
+
+.scrollButtons {
+  display: none; }
+
+.hide {
+  display: none; }

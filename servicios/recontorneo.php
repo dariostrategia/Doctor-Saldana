@@ -1,4 +1,4 @@
-<div class="contenedor-serv recontorneo">
+<div class="panel contenedor-serv recontorneo" id="recontorneo">
   <div class="parte1">
     <div class="nombre-serv">
       <h3>

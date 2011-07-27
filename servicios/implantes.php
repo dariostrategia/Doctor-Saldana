@@ -1,4 +1,4 @@
-<div class="contenedor-serv implantes">
+<div class="panel contenedor-serv implantes" id="implantes">
   <div class="parte1">
     <div class="nombre-serv">
       <h3>

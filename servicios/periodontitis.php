@@ -16,14 +16,14 @@
       </div><!-- .txt -->
     </div><!-- .despues -->
   </div><!-- .parte1 -->
-  <ul class="opcionesp2">
-    <li class="tratamientoli">Tratamiento
+  <ul class="opcionesp2 tabs">
+    <li class="tratamientoli"><a href="#tab3">Tratamiento</a>
     </li>
-    <li class="sintomasli">Síntomas
+    <li class="sintomasli"><a href="#tab4">Síntomas</a>
     </li>
   </ul>
-  <div class="parte2">
-    <div class="cuadro-tratamiento">
+  <div class="parte2 tab_container">
+    <div id="tab3" class="cuadro-tratamiento">
       <h3>
         Tratamiento
       </h3>
@@ -36,7 +36,7 @@
         </li>
       </ul>
     </div><!-- .cuadro-tratamiento -->
-    <div class="cuadro-sintomas">
+    <div id="tab4" class="cuadro-sintomas">
       <h3>
         Síntomas
       </h3>

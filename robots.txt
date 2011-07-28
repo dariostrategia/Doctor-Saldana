@@ -10,3 +10,4 @@ Disallow: /galeria_index/
 Disallow: /img/
 Disallow: /js/
 Disallow: /servicios/
+Disallow: curriculum.php

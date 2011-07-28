@@ -22,7 +22,7 @@
 
 <body>
 
-  <div id="contenedor" class="container">
+  <div class="bgndcntnr"><div id="contenedor" class="container">
     <header>
 			<?php include 'elementos-de-la-pagina/header.php';?>
     </header>
@@ -66,7 +66,7 @@
 			<?php include 'elementos-de-la-pagina/footer.php'; ?>
     </footer>
   </div> <!-- eo #container -->
-	<?php include 'elementos-de-la-pagina/telefono.php'; ?>
+
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
   <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
@@ -88,5 +88,5 @@
     s.parentNode.insertBefore(g,s)}(document,"script"));
   </script>
 
-</body>
+</div> 	<?php include 'elementos-de-la-pagina/telefono.php'; ?></body>
 </html>

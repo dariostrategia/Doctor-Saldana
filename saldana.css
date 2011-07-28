@@ -14,7 +14,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  z-index: 1; }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -267,16 +268,31 @@ a:hover {
     page-break-after: avoid; } }
 /* CSS Dr.Saldaña */
 /*---Generales----*/
-body {
-  background-color: white;
-  background-image: url("img/bgnd.png");
+html {
+  background: url("img/graystripes.gif") repeat; }
+
+.bgndcntnr {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url("img/fondo.png");
   background-repeat: no-repeat;
   background-position: center top;
-  margin: 0px; }
-
-#contenedor {
-  width: 1027px;
-  margin: auto; }
+  background-origin: padding-box;
+  display: block;
+  min-height: 900px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  max-width: 1300px;
+  word-wrap: break-word;
+  margin: auto auto; }
 
 .container {
   width: 1027px;
@@ -1012,7 +1028,7 @@ dl {
       position: relative;
       top: -190px;
       left: 229px;
-      z-index: 1; }
+      z-index: 0; }
       .contenedor-serv .parte1 .despues .txt {
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -1173,3 +1189,24 @@ dl {
 
 .hide {
   display: none; }
+
+/*tabs*/
+ul.tabs li {
+  margin-bottom: -1px;
+  overflow: hidden; }
+  ul.tabs li a {
+    text-decoration: none;
+    outline: none; }
+  ul.tabs li .active {
+    background: #fff;
+    border-bottom: 1px solid #fff; }
+
+.tab_container {
+  overflow: hidden;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff; }
+
+.tab_content {
+  padding: 10px; }

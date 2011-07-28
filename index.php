@@ -23,7 +23,7 @@
 
 <body>
 
-  <div id="contenedor" class="container">
+  <div class="bgndcntnr"><div id="contenedor" class="container">
     <header>
 			<?php include "elementos-de-la-pagina/header.php" ;?>
     </header>
@@ -88,5 +88,6 @@
     s.parentNode.insertBefore(g,s)}(document,"script"));
   </script>
 
-</body>
+</div> 
+<?php include 'elementos-de-la-pagina/telefono.php'; ?></body>
 </html>

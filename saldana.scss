@@ -56,6 +56,7 @@ time, mark, audio, video {
   font-size:100%;
   font:inherit;
   vertical-align:baseline;
+  z-index:1;
 }
 
 article, aside, details, figcaption, figure,
@@ -162,16 +163,35 @@ a:hover { color:$azulmarino; }
 
 /*---Generales----*/
 
+html{
+  background: url('img/graystripes.gif') repeat;  
+}
 body {
-  background-color:$blanco;
-  background-image:url('img/bgnd.png');
+  }
+.bgndcntnr{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: url('img/fondo.png');
   background-repeat:no-repeat;
-  background-position:center top;
-  margin:0px; }
-
-#contenedor {
-  width:1027px ;
-  margin:auto }
+  background-position: center top;
+  background-origin: padding-box;
+  display: block;
+  min-height: 900px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  max-width: 1300px;
+  word-wrap: break-word;
+  margin: auto auto;
+  
+}
 .container{
   width:1027px;
   margin:auto;
@@ -952,7 +972,7 @@ dl{
       position:relative;
       top: -190px;
       left: 229px;
-      z-index:1;
+      z-index:0;
       .txt{
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
@@ -1163,4 +1183,28 @@ dl{
 
 .hide {
     display: none;
+}
+
+/*tabs*/
+ul.tabs li {
+	margin-bottom: -1px;
+	overflow: hidden;
+  a {
+	  text-decoration: none;
+	  outline: none;
+  }
+  .active {
+    background: #fff;
+  	border-bottom: 1px solid #fff;
+  }
+}
+
+.tab_container {
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 10px;
 }

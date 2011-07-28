@@ -57,6 +57,7 @@ $(this).stop().animate({"opacity": "1"}, "medium");
 
 </head>
 
+<script src="js/libs/modernizr-1.7.min.js"></script>
 <body>
   <div class="bgndcntnr"><div id="contenedor" class="container">
 	<div class="logo"><img src="img/logo.png" width="243" height="98"></div>

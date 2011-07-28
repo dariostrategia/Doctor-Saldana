@@ -16,10 +16,11 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
 
   <link rel="stylesheet" href="saldana.css">
-  <script src="js/libs/modernizr-1.7.min.js"></script>
+  
 
 </head>
 
+<script src="js/libs/modernizr-1.7.min.js"></script>
 <body>
 
   <div class="bgndcntnr"><div id="contenedor" class="container">

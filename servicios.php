@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="saldana.css">
 </head>
 
+<script src="js/libs/modernizr-1.7.min.js"></script>
 <body>
 <div class="bgndcntnr">
   <div id="contenedor" class="container">
@@ -54,7 +55,7 @@
   </div>
 </div>
 <?php include 'elementos-de-la-pagina/telefono.php'; ?>
-<script src="js/libs/modernizr-1.7.min.js"></script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
 <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 <!-- scripts concatenated and minified via ant build script-->
